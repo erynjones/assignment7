@@ -11,23 +11,11 @@ body {
   font-family: 'Dosis', sans-serif;
 }
 .masthead {
-  background-image: url("../images/logo.svg"), url("../images/texture.png");
+  background-image: url("../images/beetle.svg"), url("../images/texture.png");
   background-size: 75px auto, 200px auto;
   padding: 2em;
   background-repeat: no-repeat, repeat;
   background-position: center 10px, left top;
-}
-
-.graphics {
-  float: left;
-  width: 10%;
-  margin: 0;
-}
-
-.graphics-2 {
-  float: right;
-  width: 10%;
-  margin: 0;
 }
 
 h1 {
@@ -56,6 +44,7 @@ nav a {
   padding: 1em 1em 1em 1em;
   color: white;
   background-color: #512200;
+  opacity: 0.5;
   text-decoration: none;
   text-align: center;
 }
@@ -70,4 +59,10 @@ nav ol {
 img {
   width: 100%;
   display: block;
+}
+
+
+footer {
+  background-color: #512200;
+  opacity: 0.5;
 }
