@@ -22,6 +22,7 @@ h1 {
   font-size: 3rem;
   margin: 0;
   padding: .5em;
+  font-weight: bold;
 }
 
 header {
@@ -46,12 +47,18 @@ nav a {
   opacity: 0.5;
   text-decoration: none;
   text-align: center;
+  font-weight: bold;
 }
 
 a:hover {
   background-color: #512200;
   opacity: .75;
   color: white;
+}
+
+div a:hover {
+  background-image: linear-gradient(to bottom, #214D00, #388200);
+  opacity: 1;
 }
 
 nav ol {
@@ -68,6 +75,7 @@ p {
   width: 100%;
   bottom: 0em;
   font-size: 1.75em;
+  font-weight: bold;
 }
 
 .rocks {
@@ -117,6 +125,7 @@ img {
   left: 13%;
   width: 25%;
   text-align: center;
+  font-weight: bold;
 }
 
 .btn-2 {
@@ -132,6 +141,7 @@ img {
   right: 13%;
   width: 25%;
   text-align: center;
+  font-weight: bold;
 }
 
 .btn-3 {
@@ -147,6 +157,7 @@ img {
   left: 13%;
   width: 25%;
   text-align: center;
+  font-weight: bold;
 }
 
 .btn-4 {
@@ -162,6 +173,7 @@ img {
   right: 13%;
   width: 25%;
   text-align: center;
+  font-weight: bold;
 }
 
 .btn-1:hover {
@@ -181,4 +193,9 @@ footer {
   background-color: #512200;
   opacity: 0.5;
   clear: both;
+}
+
+.graphic {
+  width: 10%;
+  opacity: 1;
 }
